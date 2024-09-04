@@ -8,7 +8,7 @@ const addUser = ({ id, username, room }) => {
     // Validate the data
     if(!username || !room) {
         return {
-            error: 'Username and room are required'
+            error: 'Username and room are required!'
         }
     }
 
